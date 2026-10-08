@@ -1,0 +1,6 @@
+; Copy to platformio_local.ini (git-ignored) and fill in.
+; The password must match OTA_PASS in src/secrets.h.
+[env:esp32c3_ota]
+upload_port = llavero.local      ; or the keychain IP shown on its "Network" screen
+upload_flags =
+    --auth=change-me

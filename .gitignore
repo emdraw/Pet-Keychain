@@ -1,0 +1,25 @@
+# --- Secrets: never commit these. Use the *.example files as templates. ---
+src/secrets.h
+platformio_local.ini
+
+# --- PlatformIO / build output ---
+.pio/
+.vscode/
+.idea/
+
+# --- CAD backups ---
+*.FCBak
+*.FCStd1
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+__pycache__/
+
+# --- Original design hand-off (third-party design files and a bundled runtime) ---
+# The characters in src/ are ported from this folder. It is kept out of the repo
+# because redistribution rights have not been confirmed. Remove this line if you
+# own the rights and want to publish it.
+UI/
